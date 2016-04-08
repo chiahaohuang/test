@@ -10,7 +10,7 @@ public class MainActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        String[] values = new String[] { "青菜", "水果" };
+        String[] values = new String[] { "青菜", "水果", 水 };
         setListAdapter(
                 new ArrayAdapter<String>(
                         this,
